@@ -136,6 +136,8 @@ class Settings(object):  # pylint: disable=too-few-public-methods
     # HTTP Status code timeout.
     # Consider this as the minimum time in seconds that we need before.
     seconds_before_http_timeout = 3
+    # This allow us to share logs which are used to write PyFunceble updates.
+    share_logs = False
     # Show/hide execution time.
     show_execution_time = False
     # Show/hide the percentage.
@@ -163,6 +165,9 @@ class Settings(object):  # pylint: disable=too-few-public-methods
     link_to_repo = 'https://github.com/funilrys/PyFunceble'
     # IANA whois Servers.
     iana_server = 'whois.iana.org'
+    # Link to the api where we share logs.
+    link_api_date_format = 'http://pyfunceble.funilrys.com/api/date-format'
+    link_api_no_referer = 'http://pyfunceble.funilrys.com/api/no-referer'
     ##########################################################################
     ################################## Time ##################################
     # Current date & Time.
@@ -1879,6 +1884,13 @@ class Referer(object):
                 Settings.no_referer_logs_dir +
                 self.domain_extension).write(logs)
 
+            if Settings.share_logs:
+                data_to_share = {
+                    'extension': self.domain_extension
+                }
+
+                requests.post(Settings.link_api_no_referer, data=data_to_share)
+
 
 class ExpirationDate(object):
     """
@@ -1970,6 +1982,17 @@ class ExpirationDate(object):
             Helpers.File(
                 Settings.date_format_logs_dir +
                 Settings.referer).write(log)
+
+            if Settings.share_logs:
+                date_to_share = {
+                    'domain': Settings.domain,
+                    'expiration_date': self.expiration_date,
+                    'whois_server': Settings.referer
+                }
+
+                requests.post(
+                    Settings.link_api_date_format,
+                    data=date_to_share)
 
     @classmethod
     def cases_management(cls, regex_number, matched_result):
