@@ -389,6 +389,7 @@ class Settings(object):  # pylint: disable=too-few-public-methods
             'percentage': 'https://git.io/v7xtP',
             'plain_list_domain': 'Unknown',
             'quiet': 'Unknown',
+            'share_logs': 'Unknown',
             'simple': 'Unknown',
             'split_files': 'Unknown',
             'travis': 'Unknown'
@@ -1042,7 +1043,7 @@ class Prints(object):
         if not Settings.no_files \
             and self.output is not None \
                 and self.output != '' \
-        and not path.isfile(self.output):
+            and not path.isfile(self.output):
             link = ("# File generated with %s\n" % Settings.link_to_repo)
             date_of_generation = (
                 "# Date of generation: %s \n\n" %
@@ -1783,13 +1784,27 @@ class Referer(object):
         self.ignored_extension = [
             'ad',
             'al',
+            'an',
             'ao',
+            'aq',
             'arpa',
             'az',
             'ba',
             'bb',
             'bd',
+            'bf',
+            'bh',
+            'bl',
+            'bq',
             'bs',
+            'bt',
+            'bv',
+            'cg',
+            'ck',
+            'cu',
+            'cv',
+            'cw',
+            'cy',
             'eg',
             'et',
             'fm',
@@ -2465,8 +2480,8 @@ if __name__ == '__main__':
              'https://git.io/vND4a'),
             add_help=False)
 
-        CURRENT_VALUE_FORMAT = Fore.YELLOW + Style.BRIGHT + "Current value: " \
-            + Fore.BLUE
+        CURRENT_VALUE_FORMAT = Fore.YELLOW + \
+            Style.BRIGHT + "Installed value: " + Fore.BLUE
 
         PARSER.add_argument(
             '-a',
@@ -2612,6 +2627,15 @@ if __name__ == '__main__':
                  Settings.quiet) +
              Style.RESET_ALL))
         PARSER.add_argument(
+            '--share-logs',
+            action='store_true',
+            help='Activate the sharing of logs to an API which helps manage logs in \
+                order to make PyFunceble a better script. %s' %
+            (CURRENT_VALUE_FORMAT +
+             repr(
+                 Settings.share_logs) +
+             Style.RESET_ALL))
+        PARSER.add_argument(
             '-s',
             '--simple',
             action='store_true',
@@ -2650,7 +2674,7 @@ if __name__ == '__main__':
             '-v',
             '--version',
             action='version',
-            version='%(prog)s 0.23.0-beta'
+            version='%(prog)s 0.23.16-beta'
         )
 
         ARGS = PARSER.parse_args()
@@ -2706,6 +2730,9 @@ if __name__ == '__main__':
 
         if ARGS.quiet:
             Settings.quiet = Settings().switch('quiet')
+
+        if ARGS.share_logs:
+            Settings.share_logs = Settings().switch('share_logs')
 
         if ARGS.simple:
             Settings.simple = Settings().switch('simple')
