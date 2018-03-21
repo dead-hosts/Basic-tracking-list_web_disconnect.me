@@ -1,8 +1,8 @@
 {
     "/home/travis/build/dead-hosts/Basic-tracking-list_web_disconnect.me/Basic-tracking-list.list": {
         "number_of_down": 2,
-        "number_of_invalid": 0,
-        "number_of_tested": 33,
-        "number_of_up": 31
+        "number_of_invalid": 1,
+        "number_of_tested": 35,
+        "number_of_up": 32
     }
 }
