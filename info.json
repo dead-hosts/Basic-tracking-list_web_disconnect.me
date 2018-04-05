@@ -1,14 +1,5 @@
 {
-    "arguments": [
-        "--travis",
-        "-a",
-        "-ex",
-        "--plain",
-        "--split",
-        "-t 2",
-        "--share-logs"
-    ],
-    "autosave_minutes": "10",
+    "arguments": [],
     "commit_autosave_message": "Test of Basic-tracking-list",
     "currently_under_test": "0",
     "days_until_next_test": "1",
@@ -16,5 +7,7 @@
     "list_name": "Basic-tracking-list.list",
     "name": "Basic-tracking-list",
     "raw_link": "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt",
-    "stable": "0"
+    "stable": "0",
+    "clean_original": "1",
+    "clean_list_file": "clean.list"
 }
