@@ -1,10 +1,9 @@
 {
     "/home/travis/build/dead-hosts/Basic-tracking-list_web_disconnect.me/Basic-tracking-list.list": {
         "1533252936": [
-            "custom-blacklisted-tracking-example.com"
-        ],
-        "to_test": [
+            "custom-blacklisted-tracking-example.com",
             "bango.combango.org"
-        ]
+        ],
+        "to_test": []
     }
 }
