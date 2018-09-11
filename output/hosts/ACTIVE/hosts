@@ -1,5 +1,5 @@
 # File generated with https://github.com/funilrys/PyFunceble
-# Date of generation: Sat 08 Sep 23:09:54 UTC 2018 
+# Date of generation: Tue 11 Sep 21:09:11 UTC 2018 
 
 0.0.0.0 adjust.io
 0.0.0.0 airbrake.io
@@ -24,8 +24,8 @@
 0.0.0.0 jumptap.com
 0.0.0.0 localytics.com
 0.0.0.0 mixpanel.com
-0.0.0.0 mobile-collector.newrelic.com
 0.0.0.0 mobileapptracking.com
+0.0.0.0 mobile-collector.newrelic.com
 0.0.0.0 playtomic.com
 0.0.0.0 stathat.com
 0.0.0.0 supercell.net
