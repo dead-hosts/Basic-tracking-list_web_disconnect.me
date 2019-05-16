@@ -1,154 +1,152 @@
 {
-    "/home/travis/build/dead-hosts/Basic-tracking-list_web_disconnect.me/Basic-tracking-list.list": {
-        "adjust.io": {
-            "epoch": "1558656000",
-            "expiration_date": "24-may-2019",
-            "state": "future"
-        },
-        "airbrake.io": {
-            "epoch": "1567728000",
-            "expiration_date": "06-sep-2019",
-            "state": "future"
-        },
-        "appboy.com": {
-            "epoch": "1601942400",
-            "expiration_date": "06-oct-2020",
-            "state": "future"
-        },
-        "appsflyer.com": {
-            "epoch": "1715212800",
-            "expiration_date": "09-may-2024",
-            "state": "future"
-        },
-        "apsalar.com": {
-            "epoch": "1611792000",
-            "expiration_date": "28-jan-2021",
-            "state": "future"
-        },
-        "bango.net": {
-            "epoch": "1562976000",
-            "expiration_date": "13-jul-2019",
-            "state": "future"
-        },
-        "bkrtx.com": {
-            "epoch": "1583280000",
-            "expiration_date": "04-mar-2020",
-            "state": "future"
-        },
-        "bluekai.com": {
-            "epoch": "1593993600",
-            "expiration_date": "06-jul-2020",
-            "state": "future"
-        },
-        "bugsense.com": {
-            "epoch": "1589846400",
-            "expiration_date": "19-may-2020",
-            "state": "future"
-        },
-        "burstly.com": {
-            "epoch": "1615507200",
-            "expiration_date": "12-mar-2021",
-            "state": "future"
-        },
-        "chartboost.com": {
-            "epoch": "1582502400",
-            "expiration_date": "24-feb-2020",
-            "state": "future"
-        },
-        "count.ly": {
-            "epoch": "1607731200",
-            "expiration_date": "12-dec-2020",
-            "state": "future"
-        },
-        "crashlytics.com": {
-            "epoch": "1579564800",
-            "expiration_date": "21-jan-2020",
-            "state": "future"
-        },
-        "crittercism.com": {
-            "epoch": "1723939200",
-            "expiration_date": "18-aug-2024",
-            "state": "future"
-        },
-        "do-not-tracker.org": {
-            "epoch": "1564185600",
-            "expiration_date": "27-jul-2019",
-            "state": "future"
-        },
-        "eviltracker.net": {
-            "epoch": "1563580800",
-            "expiration_date": "20-jul-2019",
-            "state": "future"
-        },
-        "flurry.com": {
-            "epoch": "1588464000",
-            "expiration_date": "03-may-2020",
-            "state": "future"
-        },
-        "getexceptional.com": {
-            "epoch": "1682380800",
-            "expiration_date": "25-apr-2023",
-            "state": "future"
-        },
-        "inmobi.com": {
-            "epoch": "1557878400",
-            "expiration_date": "15-may-2019",
-            "state": "future"
-        },
-        "jumptap.com": {
-            "epoch": "1560643200",
-            "expiration_date": "16-jun-2019",
-            "state": "future"
-        },
-        "localytics.com": {
-            "epoch": "1594080000",
-            "expiration_date": "07-jul-2020",
-            "state": "future"
-        },
-        "mixpanel.com": {
-            "epoch": "1710288000",
-            "expiration_date": "13-mar-2024",
-            "state": "future"
-        },
-        "mobileapptracking.com": {
-            "epoch": "1785888000",
-            "expiration_date": "05-aug-2026",
-            "state": "future"
-        },
-        "playtomic.com": {
-            "epoch": "1559001600",
-            "expiration_date": "28-may-2019",
-            "state": "future"
-        },
-        "stathat.com": {
-            "epoch": "1572220800",
-            "expiration_date": "28-oct-2019",
-            "state": "future"
-        },
-        "supercell.net": {
-            "epoch": "1622160000",
-            "expiration_date": "28-may-2021",
-            "state": "future"
-        },
-        "tapjoy.com": {
-            "epoch": "1672617600",
-            "expiration_date": "02-jan-2023",
-            "state": "future"
-        },
-        "trackersimulator.org": {
-            "epoch": "1560729600",
-            "expiration_date": "17-jun-2019",
-            "state": "future"
-        },
-        "usergrid.com": {
-            "epoch": "1582675200",
-            "expiration_date": "26-feb-2020",
-            "state": "future"
-        },
-        "vungle.com": {
-            "epoch": "1666742400",
-            "expiration_date": "26-oct-2022",
-            "state": "future"
-        }
+    "adjust.io": {
+        "epoch": "1558656000",
+        "expiration_date": "24-may-2019",
+        "state": "future"
+    },
+    "airbrake.io": {
+        "epoch": "1567728000",
+        "expiration_date": "06-sep-2019",
+        "state": "future"
+    },
+    "appboy.com": {
+        "epoch": "1601942400",
+        "expiration_date": "06-oct-2020",
+        "state": "future"
+    },
+    "appsflyer.com": {
+        "epoch": "1715212800",
+        "expiration_date": "09-may-2024",
+        "state": "future"
+    },
+    "apsalar.com": {
+        "epoch": "1611792000",
+        "expiration_date": "28-jan-2021",
+        "state": "future"
+    },
+    "bango.net": {
+        "epoch": "1562976000",
+        "expiration_date": "13-jul-2019",
+        "state": "future"
+    },
+    "bkrtx.com": {
+        "epoch": "1583280000",
+        "expiration_date": "04-mar-2020",
+        "state": "future"
+    },
+    "bluekai.com": {
+        "epoch": "1593993600",
+        "expiration_date": "06-jul-2020",
+        "state": "future"
+    },
+    "bugsense.com": {
+        "epoch": "1589846400",
+        "expiration_date": "19-may-2020",
+        "state": "future"
+    },
+    "burstly.com": {
+        "epoch": "1615507200",
+        "expiration_date": "12-mar-2021",
+        "state": "future"
+    },
+    "chartboost.com": {
+        "epoch": "1582502400",
+        "expiration_date": "24-feb-2020",
+        "state": "future"
+    },
+    "count.ly": {
+        "epoch": "1607731200",
+        "expiration_date": "12-dec-2020",
+        "state": "future"
+    },
+    "crashlytics.com": {
+        "epoch": "1579564800",
+        "expiration_date": "21-jan-2020",
+        "state": "future"
+    },
+    "crittercism.com": {
+        "epoch": "1723939200",
+        "expiration_date": "18-aug-2024",
+        "state": "future"
+    },
+    "do-not-tracker.org": {
+        "epoch": "1564185600",
+        "expiration_date": "27-jul-2019",
+        "state": "future"
+    },
+    "eviltracker.net": {
+        "epoch": "1563580800",
+        "expiration_date": "20-jul-2019",
+        "state": "future"
+    },
+    "flurry.com": {
+        "epoch": "1588464000",
+        "expiration_date": "03-may-2020",
+        "state": "future"
+    },
+    "getexceptional.com": {
+        "epoch": "1682380800",
+        "expiration_date": "25-apr-2023",
+        "state": "future"
+    },
+    "inmobi.com": {
+        "epoch": 1715731200,
+        "expiration_date": "15-may-2024",
+        "state": "future"
+    },
+    "jumptap.com": {
+        "epoch": "1560643200",
+        "expiration_date": "16-jun-2019",
+        "state": "future"
+    },
+    "localytics.com": {
+        "epoch": "1594080000",
+        "expiration_date": "07-jul-2020",
+        "state": "future"
+    },
+    "mixpanel.com": {
+        "epoch": "1710288000",
+        "expiration_date": "13-mar-2024",
+        "state": "future"
+    },
+    "mobileapptracking.com": {
+        "epoch": "1785888000",
+        "expiration_date": "05-aug-2026",
+        "state": "future"
+    },
+    "playtomic.com": {
+        "epoch": "1559001600",
+        "expiration_date": "28-may-2019",
+        "state": "future"
+    },
+    "stathat.com": {
+        "epoch": "1572220800",
+        "expiration_date": "28-oct-2019",
+        "state": "future"
+    },
+    "supercell.net": {
+        "epoch": "1622160000",
+        "expiration_date": "28-may-2021",
+        "state": "future"
+    },
+    "tapjoy.com": {
+        "epoch": "1672617600",
+        "expiration_date": "02-jan-2023",
+        "state": "future"
+    },
+    "trackersimulator.org": {
+        "epoch": "1560729600",
+        "expiration_date": "17-jun-2019",
+        "state": "future"
+    },
+    "usergrid.com": {
+        "epoch": "1582675200",
+        "expiration_date": "26-feb-2020",
+        "state": "future"
+    },
+    "vungle.com": {
+        "epoch": "1666742400",
+        "expiration_date": "26-oct-2022",
+        "state": "future"
     }
 }
