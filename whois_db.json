@@ -1,8 +1,8 @@
 {
     "adjust.io": {
-        "epoch": "1558656000",
+        "epoch": 1558656000,
         "expiration_date": "24-may-2019",
-        "state": "future"
+        "state": "past"
     },
     "airbrake.io": {
         "epoch": "1567728000",
