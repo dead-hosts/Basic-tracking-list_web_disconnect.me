@@ -39,13 +39,13 @@
         }
     },
     "/home/travis/build/dead-hosts/Basic-tracking-list_web_disconnect.me/domains.list": {
-        "1571430260": {
+        "1571546201": {
             "bango.combango.org": "INACTIVE"
         },
-        "1571430261": {
+        "1571546202": {
             "custom-blacklisted-tracking-example.com": "INACTIVE"
         },
-        "1571430262": {
+        "1571546203": {
             "mobile-collector.newrelic.com": "INACTIVE"
         }
     }
