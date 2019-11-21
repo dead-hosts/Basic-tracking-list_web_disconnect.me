@@ -39,10 +39,8 @@
         }
     },
     "/home/travis/build/dead-hosts/Basic-tracking-list_web_disconnect.me/domains.list": {
-        "1574135691": {
-            "bango.combango.org": "INACTIVE"
-        },
-        "1574135692": {
+        "1574308568": {
+            "bango.combango.org": "INACTIVE",
             "custom-blacklisted-tracking-example.com": "INACTIVE"
         }
     }
