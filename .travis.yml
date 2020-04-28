@@ -7,7 +7,6 @@ env:
     -   secure: ZCTDF65UbdnciO/awgUv97E6kuJOoOYn8ZA/NY0WZjEGQoNGukdsRG1EBADh0oadADmZUJJHqXXNtEuySF9vwuvg6Vg+m7/unh4HzXB7ZAwRLHsqnh1NMDgRclfqXvt35D1ZiYNGGYOb7PyYMwZ74Hf9RSVcXCLJesRiqhyYyaRbOciqFmKve8ds4y/w4seQpcbDpnNJGI0P9bS7uzFvqJJJeK3NdP/FGYnuBFnixta9BJszNgQ+Yg5VDA79M8ExKEvkPFrQGiSQmA6ygZmtpctvQZvrXFgzFGkmbfjoUsWd2QpzOeGk5HV1MLjeAKbETzOP1OeqEcAKaG0QO362HaolYdmWJcnYyVkwnVML8+0jQQ1cXGLk2+zTMPlcHV+94MQAxCn6c8oEh0zEWhwgzBh5Mp0aajvF2vvirOUZ6uGQi6/uVshzd8JA2LXJ9WKiiO82QrTVxXqu2svwFLVGH90izB0snon91mhUJZ6GvQI0R3GBj9ZobToTWzsa+03sOeLu/xSTZmmh99+XXl4UE3yIBlC4swdmF4OX6Nvui9eJPNgT7EuiTqSEbwdUWJr6BISbt8ff8KAc36Kk43+2oP3uB1tVGEHGHdzuWzzdzWyrqJ/hSGMjJxvsSd9rEU4knRY3rjynm6j6BV7mlhYxyZjBBLoLT0pzSJJ3hmfmkZs=
     -   GIT_NAME: Travis CI
     -   GIT_EMAIL: dead-hosts@funilrys.com
-    -   TRAVIS_REPO_SLUG: dead-hosts/Basic-tracking-list_web_disconnect.me
     -   GIT_BRANCH: master
     matrix:
     - PYTHON_VERSION="3.7.3"
@@ -30,7 +29,7 @@ notifications:
         on_failure: always
         on_success: never
         recipients:
-        - dead-hosts@funilrys.com
+        - dead-hosts@outlook.com
 os:
 - linux
 script:
