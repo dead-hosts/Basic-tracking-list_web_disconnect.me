@@ -17,17 +17,17 @@
     },
     "/home/travis/build/dead-hosts/Basic-tracking-list_web_disconnect.me/domains.list": {
         "bango.combango.org": {
-            "included_at_epoch": 1587208404.0,
-            "included_at_iso": "2020-04-18T11:13:24",
-            "last_retested_at_epoch": 1589624073.098421,
-            "last_retested_at_iso": "2020-05-16T10:14:33.098421",
+            "included_at_epoch": 1589710843.597964,
+            "included_at_iso": "2020-05-17T10:20:43.597964",
+            "last_retested_at_epoch": 1589710843.597964,
+            "last_retested_at_iso": "2020-05-17T10:20:43.597964",
             "status": "INACTIVE"
         },
         "custom-blacklisted-tracking-example.com": {
-            "included_at_epoch": 1587208404.0,
-            "included_at_iso": "2020-04-18T11:13:24",
-            "last_retested_at_epoch": 1589624073.11361,
-            "last_retested_at_iso": "2020-05-16T10:14:33.113610",
+            "included_at_epoch": 1589710843.612261,
+            "included_at_iso": "2020-05-17T10:20:43.612261",
+            "last_retested_at_epoch": 1589710843.612261,
+            "last_retested_at_iso": "2020-05-17T10:20:43.612261",
             "status": "INACTIVE"
         }
     }
