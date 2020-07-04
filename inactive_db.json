@@ -19,15 +19,15 @@
         "bango.combango.org": {
             "included_at_epoch": 1592142749.004838,
             "included_at_iso": "2020-06-14T13:52:29.004838",
-            "last_retested_at_epoch": 1593699413.988455,
-            "last_retested_at_iso": "2020-07-02T14:16:53.988455",
+            "last_retested_at_epoch": 1593871471.274434,
+            "last_retested_at_iso": "2020-07-04T14:04:31.274434",
             "status": "INACTIVE"
         },
         "custom-blacklisted-tracking-example.com": {
             "included_at_epoch": 1592142749.02133,
             "included_at_iso": "2020-06-14T13:52:29.021330",
-            "last_retested_at_epoch": 1593699414.004167,
-            "last_retested_at_iso": "2020-07-02T14:16:54.004167",
+            "last_retested_at_epoch": 1593871471.288506,
+            "last_retested_at_iso": "2020-07-04T14:04:31.288506",
             "status": "INACTIVE"
         }
     }
