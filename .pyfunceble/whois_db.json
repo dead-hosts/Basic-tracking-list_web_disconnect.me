@@ -5,8 +5,9 @@
         "state": "future"
     },
     "airbrake.io": {
-        "epoch": 1599350400.0,
-        "expiration_date": "06-sep-2020",
+        "epoch": 1630886400.0,
+        "expiration_date": "06-sep-2021",
+        "server": "whois.nic.io",
         "state": "future"
     },
     "appboy.com": {
