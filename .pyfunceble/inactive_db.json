@@ -52,10 +52,10 @@
             "status": "ACTIVE"
         },
         "bango.combango.org": {
-            "included_at_epoch": 1601909998.173368,
-            "included_at_iso": "2020-10-05T14:59:58.173368",
-            "last_retested_at_epoch": 1604157246.288119,
-            "last_retested_at_iso": "2020-10-31T15:14:06.288119",
+            "included_at_epoch": 1604331837.52403,
+            "included_at_iso": "2020-11-02T15:43:57.524030",
+            "last_retested_at_epoch": 1604331837.52403,
+            "last_retested_at_iso": "2020-11-02T15:43:57.524030",
             "status": "INACTIVE"
         },
         "bango.net": {
@@ -129,10 +129,10 @@
             "status": "ACTIVE"
         },
         "custom-blacklisted-tracking-example.com": {
-            "included_at_epoch": 1601909998.17756,
-            "included_at_iso": "2020-10-05T14:59:58.177560",
-            "last_retested_at_epoch": 1604157246.306624,
-            "last_retested_at_iso": "2020-10-31T15:14:06.306624",
+            "included_at_epoch": 1604331837.526629,
+            "included_at_iso": "2020-11-02T15:43:57.526629",
+            "last_retested_at_epoch": 1604331837.526629,
+            "last_retested_at_iso": "2020-11-02T15:43:57.526629",
             "status": "INACTIVE"
         },
         "do-not-tracker.org": {
