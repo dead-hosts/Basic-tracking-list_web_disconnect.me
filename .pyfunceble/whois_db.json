@@ -57,8 +57,9 @@
         "state": "future"
     },
     "count.ly": {
-        "epoch": 1607731200.0,
-        "expiration_date": "12-dec-2020",
+        "epoch": 1670716800.0,
+        "expiration_date": "11-dec-2022",
+        "server": "whois.nic.ly",
         "state": "future"
     },
     "crashlytics.com": {
