@@ -1,15 +1,13 @@
 {
-    "abs_source": "/home/runner/work/Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me/origin.list",
     "checker_type": "AVAILABILITY",
     "destination": "origin.list",
     "hash": "c1a05cfe2fe3afe8c0b60484fc0ea49fdfe171ec92548e4712b5bc25",
     "line_number": 39,
     "output_dir": "/home/runner/work/Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me/output/origin.list",
     "previous_hash": "c1a05cfe2fe3afe8c0b60484fc0ea49fdfe171ec92548e4712b5bc25",
-    "rel_source": "origin.list",
-    "session_id": "5ea083548fd0e14de311a7b9",
-    "source": "/home/runner/work/Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me/origin.list",
-    "subject": "/home/runner/work/Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me/origin.list",
+    "session_id": "dbbb1191a1ba2d5cd4e60890",
+    "source": "origin.list",
+    "subject": "origin.list",
     "subject_type": "domain",
     "type": "file"
 }

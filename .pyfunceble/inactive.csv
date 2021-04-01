@@ -1,3 +1,3 @@
-idna_subject,checker_type,destination,source,tested_at
-bango.combango.org,AVAILABILITY,origin.list,/home/runner/work/Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me/origin.list,2021-01-16 01:26:41.928375
-custom-blacklisted-tracking-example.com,AVAILABILITY,origin.list,/home/runner/work/Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me/origin.list,2021-01-16 01:26:50.848936
+idna_subject,checker_type,destination,tested_at
+bango.combango.org,AVAILABILITY,origin.list,2021-04-01 16:47:18.256859
+custom-blacklisted-tracking-example.com,AVAILABILITY,origin.list,2021-04-01 16:47:23.936405
