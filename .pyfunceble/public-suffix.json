@@ -4473,6 +4473,7 @@
         "yuza.yamagata.jp",
         "yuzawa.niigata.jp",
         "zama.kanagawa.jp",
+        "zamami.okinawa.jp",
         "zao.miyagi.jp",
         "zentsuji.kagawa.jp",
         "zushi.kanagawa.jp",
@@ -4892,8 +4893,7 @@
         "gov.ml",
         "net.ml",
         "org.ml",
-        "presse.ml",
-        "zamami.okinawa.jp"
+        "presse.ml"
     ],
     "mm": [
         "mm"
@@ -5577,7 +5577,6 @@
         "pro.na",
         "school.na",
         "tv.na",
-        "us.na",
         "ws.na"
     ],
     "name": [
@@ -6515,6 +6514,7 @@
         "ulvik.no",
         "unjarga.no",
         "unjárga.no",
+        "us.na",
         "utsira.no",
         "va.no",
         "vaapste.no",
