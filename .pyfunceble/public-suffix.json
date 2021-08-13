@@ -967,7 +967,6 @@
         "balena-devices.com",
         "barsycenter.com",
         "barsyonline.com",
-        "beta.bounty-full.com",
         "betainabox.com",
         "blogdns.com",
         "blogspot.com",
@@ -1916,6 +1915,7 @@
         "hra.health"
     ],
     "hk": [
+        "beta.bounty-full.com",
         "blogspot.hk",
         "com.hk",
         "edu.hk",
@@ -4827,7 +4827,6 @@
         "dscloud.me",
         "edgestack.me",
         "edu.me",
-        "enterprisecloud.nu",
         "filegear-au.me",
         "filegear-de.me",
         "filegear-gb.me",
@@ -4858,6 +4857,7 @@
         "tbits.me",
         "tcp4.me",
         "ukco.me",
+        "vp4.me",
         "wbq.me",
         "webhop.me",
         "wedeploy.me",
