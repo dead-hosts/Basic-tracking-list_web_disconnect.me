@@ -15,7 +15,7 @@
     "own_management": false,
     "ping": [],
     "raw_link": "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt",
-    "repo": "Basic-tracking-list_web_disconnect.me/Basic-tracking-list_web_disconnect.me",
+    "repo": "dead-hosts/Basic-tracking-list_web_disconnect.me",
     "start_datetime": "2020-12-28T15:46:23.263497",
     "start_timestamp": 1609170383.263497
 }
